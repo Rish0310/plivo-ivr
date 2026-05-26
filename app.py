@@ -4,13 +4,13 @@ from requests.auth import HTTPBasicAuth
 
 app = Flask(__name__)
 
-AUTH_ID    = "MAZWM1MMZIZDVKY2Y2OG"
-AUTH_TOKEN = "YmVmMzc5MTAyZTM1MDBlZTQ1ZmEyMDAwYWFiOWRj"
-PLIVO_NUMBER = "+912264232030"
-ASSOCIATE_NUMBER = "02264236412"
-OTP = "2202"
+AUTH_ID    = "MAZWMxxxxx"
+AUTH_TOKEN = "Ymxxxx"
+PLIVO_NUMBER = "xxx"
+ASSOCIATE_NUMBER = "xxx"
+OTP = "xxxx"
 AUDIO_URL = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-BASE_URL = "https://some-recommend-valley-berlin.trycloudflare.com"
+BASE_URL = "https://xxx.trycloudflare.com"
 
 @app.before_request
 def allow_all_hosts():
