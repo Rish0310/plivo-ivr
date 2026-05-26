@@ -1,4 +1,3 @@
-# plivo-ivr
 # InspireWorks IVR Demo — Plivo Voice API
 
 > A demo IVR system built for the Plivo Product Operations Engineer Intern assignment.  
