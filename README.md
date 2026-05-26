@@ -103,28 +103,6 @@ Open `http://localhost:5000` in your browser, enter a phone number in `+91XXXXXX
 
 ---
 
-## Plivo Credentials
-
-| Field | Value |
-|---|---|
-| Auth ID | MAZWM1MMZIZDVKY2Y2OG |
-| Auth Token | YmVmMzc5MTAyZTM1MDBlZTQ1ZmEyMDAwYWFiOWRj |
-| Plivo Number | +912264232030 |
-| Associate Number | 02264236412 |
-
----
-
-## OTP Configuration
-
-The OTP is hardcoded as the developer's birthdate in DDMM format. No database required.
-
-```python
-OTP = "2202"  # 22nd February
-```
-
-To change it, update this value in `app.py` before running.
-
----
 
 ## How it works — under the hood
 
